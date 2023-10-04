@@ -82,7 +82,7 @@ for i in range(4):
     frame_calculadora.grid_columnconfigure(i, weight=1)
 
 foto = PhotoImage(
-    file="C:\\Users\\josel\\Desktop\\Python\\calculadora\\img\\Logo.png")
+    file="\\img\\Logo.png")
 imagenLabel = Label(root, image=foto, background="#FCFFE7", borderwidth=50)
 imagenLabel.pack()
 
